@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import "../Cart/Cart.css";
 import AddForm from "../AddForm/AddForm";
 import {ICartState} from "../../interfaces/ICartState"
 
@@ -62,7 +63,7 @@ class Cart extends Component{
     changeQuantity = (input, index: number) => {
         const product = this.state.products[index];
         if (isNaN(+input.value)) {
-            input.style.borderColor = 'red'; // classAdd
+            input.style.borderColor = 'red';
             return;
         } else {
             product.quantity = +input.value;
@@ -112,7 +113,7 @@ class Cart extends Component{
 
     render() {
         return (
-            <div className="App">
+            <div className="Cart">
 
                 <AddForm addProduct={this.addProductHandler}/>
 

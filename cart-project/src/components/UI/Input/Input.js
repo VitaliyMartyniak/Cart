@@ -1,4 +1,5 @@
 import React from "react";
+import '../Input/Input.css'
 
 function isInvalid({valid, touched, shouldValidate}) {
     return !valid && touched && shouldValidate
@@ -12,7 +13,7 @@ const Input: React.FC = props => {
     }
 
     return (
-        <div>
+        <div className="Input">
             <label htmlFor={htmlFor}>{props.label}</label>
             <input
                 type='text'

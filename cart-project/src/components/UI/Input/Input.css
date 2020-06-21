@@ -1,0 +1,9 @@
+.Input label {
+    display: block;
+    margin: 10px 0;
+}
+
+.Input span {
+    margin-left: 10px;
+    color: red;
+}

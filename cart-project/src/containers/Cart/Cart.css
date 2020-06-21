@@ -1,0 +1,8 @@
+.Cart {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Cart .error {
+    border-color: red;
+}

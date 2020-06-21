@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Input from "../../components/UI/Input/Input";
 import {IAddFormState} from "../../interfaces/IAddFormState"
+import '../AddForm/AddForm.css'
 
 class AddForm extends Component{
     state: IAddFormState = {
