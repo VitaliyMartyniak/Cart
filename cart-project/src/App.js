@@ -1,12 +1,9 @@
 import React from 'react';
 import './App.css';
+import Cart from "./containers/Cart/Cart";
 
-function App() {
-  return (
-    <div className="App">
-      <p>Test</p>
-    </div>
-  );
+const App: React.FC = () => {
+  return <Cart/>;
 }
 
 export default App;
